@@ -41,22 +41,22 @@
   function mouseOver(mOver) {
   
     if(mOver == "logos"){
-      document.getElementById("main").style.backgroundImage = "url(media/fotologos.jpg)";
+      document.getElementById("main").style.backgroundImage = "url(../HimeGN/media/fotologos.jpg)";
       document.getElementById("main").style.backgroundSize = "100% 100%";
       document.getElementById("main").style.backgroundRepeat = "no-repeat";
     }
     else if(mOver == "ilart"){
-      document.getElementById("main").style.backgroundImage = "url(media/fotoilustracion.jpg)";
+      document.getElementById("main").style.backgroundImage = "url(../HimeGN/media/fotoilustracion.jpg)";
       document.getElementById("main").style.backgroundSize = "100% 100%";
       document.getElementById("main").style.backgroundRepeat = "no-repeat";
     }
     else if(mOver == "clients"){
-      document.getElementById("main").style.backgroundImage = "url(media/fotoclientes.jpg)";
+      document.getElementById("main").style.backgroundImage = "url(../HimeGN/media/fotoclientes.jpg)";
       document.getElementById("main").style.backgroundSize = "100% 100%";
       document.getElementById("main").style.backgroundRepeat = "no-repeat";
     }
     else if(mOver == "merch"){
-      document.getElementById("main").style.backgroundImage = "url(media/foto_merch.jpg)";
+      document.getElementById("main").style.backgroundImage = "url(../HimeGN/media/foto_merch.jpg)";
       document.getElementById("main").style.backgroundSize = "100% 100%";
       document.getElementById("main").style.backgroundRepeat = "no-repeat";
     }
