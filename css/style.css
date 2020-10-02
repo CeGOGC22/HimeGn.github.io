@@ -96,7 +96,7 @@ a:link, a:visited {
 #logoswork
 {
     height: 100%;
-    background-image: url('media/LOGOS.JPG');
+    background-image: url('./media/LOGOS.JPG');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -107,7 +107,7 @@ a:link, a:visited {
 #illwork
 {
     height: 100%;
-    background-image: url('media/Ilustraciones.jpg');
+    background-image: url('./media/Ilustraciones.jpg');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -118,7 +118,7 @@ a:link, a:visited {
 #merchwork
 {
     height: 100%;
-    background-image: url('media/Merch.jpg');
+    background-image: url('./media/Merch.jpg');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -129,7 +129,7 @@ a:link, a:visited {
 #clientwork
 {
     height: 100%;
-    background-image: url('media/Clientes.jpg');
+    background-image: url('./media/Clientes.jpg');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
