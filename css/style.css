@@ -194,19 +194,36 @@ a:link, a:visited {
     font-family: 'Roboto', sans-serif;
 }
 
+.about-content{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: auto;
+}
+
+#about-pic{
+    width: 50%;
+}
+#about-pic>img{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
 #sp-btn{
     background-color: #fDC504;
     color: #292929;
 }
 
-#spanish{
-      width:80%;
-      margin:auto;
-      
+#spanish{  
+    text-align: justify;
+    width: 50%;
+    margin-top: 8%;
   }
 
 #english{
+    text-align: justify;
+    width: 50%;
     display: none;
-    width:80%;
-    margin:auto;
+    margin: auto;
+    margin-top: 8%;
 }
