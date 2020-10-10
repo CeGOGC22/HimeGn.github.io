@@ -9,6 +9,7 @@ body{
     display: block;
     font-family: 'Roboto', sans-serif;
     color: #fDC504;
+    background-attachment: fixed;
 }
 
 .txtbold{
@@ -155,7 +156,7 @@ a:link, a:visited {
     flex-shrink: 100;
 }
 #contact{
-    width: 50%;
+    width: 80%;
     margin: auto;
     font-size: 45pt;
     text-align: center;
@@ -226,4 +227,41 @@ a:link, a:visited {
     display: none;
     margin: auto;
     margin-top: 8%;
+}
+
+@media only screen and (max-width: 600px){
+    a {
+      font-size: 20pt;
+    }
+    #mainLogo>img{
+        width: 60px;
+        height: 75px;
+    }
+}
+
+@media only screen and (max-width: 700px)
+{
+    .about-content{
+        display: contents;
+    }
+    #spanish{
+        width: 80%;
+        margin: auto;
+    }
+    #english{
+        width: 80%;
+        margin: auto;
+    }
+    #about-pic{
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 1000px)
+{
+    #contact{
+        font-size: 30pt;
+    }
+
 }

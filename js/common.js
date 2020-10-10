@@ -1,9 +1,15 @@
-  document.getElementById("mainLogo").onmouseover = function() {mouseOver("mainLogo")};
-  document.getElementById("mainLogo").onmouseout = function() {mouseOut("mainLogo")};
-  document.getElementById("hdMain").onmouseout = function() {mouseOut("mainLogo")};
+  var mobDevice = isMobile();
   document.getElementById("sbbtn").onclick = function() {openNav()};
   document.getElementById("closebtn").onclick = function() {closeNav()};
+  function isMobile() {
+    return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+  }
 
+  if(!mobDevice){
+    document.getElementById("mainLogo").onmouseover = function() {mouseOver("mainLogo")};
+    document.getElementById("mainLogo").onmouseout = function() {mouseOut("mainLogo")};
+    document.getElementById("hdMain").onmouseout = function() {mouseOut("mainLogo")};
+  }
 
   function mouseOver(mOver) {
   
